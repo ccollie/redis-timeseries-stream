@@ -1,0 +1,24 @@
+{
+  "name": "redis-timeseries-stream",
+  "description": "Manage timeseries data in Redis with ease",
+  "version": "0.1.0",
+  "main": "index.js",
+  "license": "MIT",
+  "author": "Clayton Collie",
+  "devDependencies": {
+    "ioredis": "^4.11.1",
+    "jest": "^24.8.0",
+    "p-all": "^2.1.0"
+  },
+  "keywords": [
+    "Redis",
+    "Timeseries",
+    "lua"
+  ],
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "p-series": "^2.1.0"
+  }
+}
